@@ -146,41 +146,41 @@ export default function Home() {
 
   const TheardSection = [
     {
-      img: "/pexels (6).jpg",
+      img: "./pexels (6).jpg",
       text: "Unlock the Web Foundation",
       text1: "Dive into HTML to structure your content and CSS to style it. By the end, you'll be crafting beautiful web pages from scratch.",
       text2: "image",
       button: "$250",
     },
     {
-      img: "/pexels (7).jpg",
+      img: "./pexels (7).jpg",
       text: "Unlock the Web Foundation",
       text1: "Dive into HTML to structure your content and CSS to style it. By the end, you'll be crafting beautiful web pages from scratch.",
       text2: "image",
       button: "$250",
     }, {
-      img: "/pexels (8).jpg",
+      img: "./pexels (8).jpg",
       text: "Unlock the Web Foundation",
       text1: "Dive into HTML to structure your content and CSS to style it. By the end, you'll be crafting beautiful web pages from scratch.",
       text2: "image",
       button: "$250",
     },
     {
-      img: "/pexels (1).jpg",
+      img: "./pexels (1).jpg",
       text: "Unlock the Web Foundation",
       text1: "Dive into HTML to structure your content and CSS to style it. By the end, you'll be crafting beautiful web pages from scratch.",
       text2: "image",
       button: "$250",
     },
     {
-      img: "/pexels (2).jpg",
+      img: "./pexels (2).jpg",
       text: "Unlock the Web Foundation",
       text1: "Dive into HTML to structure your content and CSS to style it. By the end, you'll be crafting beautiful web pages from scratch.",
       text2: "image",
       button: "$250",
     },
     {
-      img: "/pexels (3).jpg",
+      img: "./pexels (3).jpg",
       text: "Unlock the Web Foundation",
       text1: "Dive into HTML to structure your content and CSS to style it. By the end, you'll be crafting beautiful web pages from scratch.",
       text2: "image",
@@ -189,7 +189,7 @@ export default function Home() {
   ];
   const FourSection = [
     {
-      img: "/pexels (5).jpg",
+      img: "./pexels (5).jpg",
       text: "Frontend Developer",
       text1: "Frontend Developer with experience in designing and developing responsive web applications using Next.js, React, Tailwind Css, JavaScript, HTML and CSS. Skilled in creating seamless user interfaces, optimizing performance. Passionate about delivering clean, efficient code and developing solutions that enhance user experience and business growth.",
       names: "Sunil Kumar Saini",
@@ -198,25 +198,25 @@ export default function Home() {
   ];
   const FithSection = [
     {
-      img: "/pexels (3).jpg",
+      img: "./pexels (3).jpg",
       text: "Future of Web Development: Trends and Innovations",
       text1: "Discover the latest trends and innovations shaping the future of web development.",
       button: "register",
     },
     {
-      img: "/pexels (8).jpg",
+      img: "./pexels (8).jpg",
       text: "Future of Web Development: Trends and Innovations",
       text1: "Discover the latest trends and innovations shaping the future of web development.",
       button: "register",
     },
     {
-      img: "/pexels (7).jpg",
+      img: "./pexels (7).jpg",
       text: "Future of Web Development: Trends and Innovations",
       text1: "Discover the latest trends and innovations shaping the future of web development.",
       button: "register",
     },
     {
-      img: "/pexels (6).jpg",
+      img: "./pexels (6).jpg",
       text: "Future of Web Development: Trends and Innovations",
       text1: "Discover the latest trends and innovations shaping the future of web development.",
       button: "register",
