@@ -86,7 +86,7 @@ export default function Home() {
 
   const FirstSection = [
     {
-      img: "/hero.jpg",
+      img: "./hero.jpg",
       text: " Unlock the Power of the Web with Our Expert Courses",
       text1: "Are you ready to embark on an exciting journey into the world of web development? Look no further! We are your trusted partner for mastering the art of web development.",
       button1: "VIEW ALL COURSES ",
