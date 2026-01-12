@@ -21,25 +21,25 @@ export default function Footer() {
 
     const SecondSection = [
         {
-            heading: "/discord.png",
+            heading: "./discord.png",
             name: "logo",
             text: "Clarity UI",
             text1: "Clarity gives you the blocks and components you need to create a truly professional website.",
             items: [
                 {
-                    img: "/social-icon (1).png",
+                    img: "./social-icon (1).png",
                     text: "twitter",
                 },
                 {
-                    img: "/social-icon (2).png",
+                    img: "./social-icon (2).png",
                     text: "facebook",
                 },
                 {
-                    img: "/social-icon (3).png",
+                    img: "./social-icon (3).png",
                     text: "instagram",
                 },
                 {
-                    img: "/social-icon (4).png",
+                    img: "./social-icon (4).png",
                     text: "linkedin",
                 },
             ],
@@ -149,7 +149,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="border-t py-3">
-                    <h1 className="text-center mx-5">© Copyright 2025, All Rights Reserved by ClarityUI</h1>
+                    <h1 className="text-center mx-5">© Copyright 2026, All Rights Reserved by ClarityUI</h1>
                 </div>
             </div>
         </footer >
