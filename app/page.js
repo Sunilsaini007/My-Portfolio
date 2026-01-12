@@ -115,7 +115,7 @@ export default function Home() {
 
   const SecondSection = [
     {
-      img: "/pexels (1).jpg",
+      img: "./pexels (1).jpg",
       text: "Tailwind CSS",
       text1: "Web Development",
       text2: "Ready to start your web development journey?",
@@ -123,22 +123,22 @@ export default function Home() {
       type: "highlight",
     },
     {
-      img: "/pexels (2).jpg",
+      img: "./pexels (2).jpg",
       text1: "Frontend Web Development",
       type: "small",
     },
     {
-      img: "/pexels (2).jpg",
+      img: "./pexels (2).jpg",
       text1: "Back End Development",
       type: "small",
     },
     {
-      img: "/pexels (3).jpg",
+      img: "./pexels (3).jpg",
       text1: "Cyber Secou",
       type: "small",
     },
     {
-      img: "/pexels (4).jpg",
+      img: "./pexels (4).jpg",
       text1: "Tailwind CSS",
       type: "small",
     },
