@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body
         className="flex flex-col min-h-screen bg-gradient-to-br from-white via-blue-50 to-blue-100"
       >
-        {/* <SplashScreen> */}
+        <SplashScreen>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <Nav />
             {/* <Template> */}
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
             {/* </Template> */}
             <Footer />
           </ThemeProvider>
-        {/* </SplashScreen> */}
+        </SplashScreen>
       </body>
     </html>
   );
