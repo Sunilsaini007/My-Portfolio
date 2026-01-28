@@ -9,7 +9,7 @@ export default function Mingle() {
 
     const FirstSection = [
         {
-            img: "Screenshot1.png",
+            img: "./Screenshot1.png",
             text: " Welcome To Our Organic food Kitchens",
             text2: " Step into our Organic Food Kitchens, where every dish is made with 100% natural, chemical-free ingredients. Freshly prepared at home, our meals bring you the pure taste of health, love, and nature in every bite.",
             text3: " 100% Pure Vegetarian",
@@ -20,19 +20,19 @@ export default function Mingle() {
 
     const FeatureIcons = [
         {
-            icon: "bananas.png",
+            icon: "./bananas.png",
             bgColor: "#3f8757",
             title: "100% Pure Vegetarian",
             description: "We serve only pure vegetarian food, made with fresh ingredients and prepared with care to bring you healthy, delicious meals every time.",
         },
         {
-            icon: "food.png",
+            icon: "./food.png",
             bgColor: "#ef9929",
             title: " 100% Hygienic Food",
             description: " We prepare every meal in a clean, safe environment to ensure 100% hygienic food for your health and satisfaction.",
         },
         {
-            icon: "bananas.png",
+            icon: "./bananas.png",
             bgColor: "#d65425",
             title: " 100% Testy Food",
             description: " Enjoy food that’s packed with flavor and prepared to satisfy your taste buds every time.",
@@ -41,35 +41,35 @@ export default function Mingle() {
 
     const Second = [
         {
-            img: "/bananas.png",
+            img: "./bananas.png",
             text: "image",
         },
         {
-            img: "/bananas.png",
+            img: "./bananas.png",
             text: "image",
         },
         {
-            img: "/bananas.png",
+            img: "./bananas.png",
             text: "image",
         },
         {
-            img: "/bananas.png",
+            img: "./bananas.png",
             text: "image",
         },
         {
-            img: "/bananas.png",
+            img: "./bananas.png",
             text: "image",
         },
         {
-            img: "/bananas.png",
+            img: "./bananas.png",
             text: "image",
         },
         {
-            img: "/bananas.png",
+            img: "./bananas.png",
             text: "image",
         },
         {
-            img: "/bananas.png",
+            img: "./bananas.png",
             text: "image",
         },
     ];

@@ -55,7 +55,7 @@ export default function HomePage() {
     };
 
     return (
-        <div className="lg:w-8xl mx-auto space-y-5 p-4 mt-20 dark:bg-black text-black dark:text-white">
+        <div className="lg:w-8xl mx-auto space-y-5 p-4 pt-15 lg:pt-25 dark:bg-black text-black dark:text-white">
             {loading ? (
                 <div className="flex justify-center items-center min-h-screen space-x-5">
                     <div className="border-4 w-8 h-8 border-y-transparent border-amber-300 animate-spin rounded-full" />
@@ -63,7 +63,8 @@ export default function HomePage() {
                 </div>
             ) : (
                 <>
-                    <h1 className="text-2xl font-bold mb-4">Recipes</h1>
+                <div className="flex md:flex-row flex-col mb-4 justify-between">
+                    <h1 className="text-lg md:text-2xl font-bold mb-1">Recipes</h1>
                     <input
                         className="px-3 py-2 focus:outline-cyan-950 border rounded-lg"
                         type="text"
@@ -72,7 +73,7 @@ export default function HomePage() {
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                     />
-
+</div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 dark:bg-black text-black dark:text-white">
                         {currentItems.map((food) => (
                             <div
@@ -81,7 +82,7 @@ export default function HomePage() {
                                 className="group bg-gray-300 hover:bg-gray-200 p-4 flex flex-col rounded-lg space-y-3 shadow-lg shadow-gray-400 overflow-hidden dark:bg-black text-black dark:text-white"
                             >
                                 <Image
-                                    className="h-80 w-80 mx-auto rounded-lg transition-all group-hover:scale-95 hover:rounded-full duration-800"
+                                    className="h-80 w-80 mx-auto rounded-lg transition-all group-hover:scale-95 hover:rounded-full duration-500"
                                     src={food.image}
                                     alt={food.name}
                                     width={400}
