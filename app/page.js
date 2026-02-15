@@ -431,7 +431,7 @@ export default function Home() {
                   type: "spring",
                   stiffness: 100,
                   damping: 10,
-                  delay: index * 0.5,
+                  delay: index * 0.3,
                 }}
                 className="grid grid-cols-1 lg:grid-cols-2 items-center my-[10vh]"
               >
@@ -485,7 +485,7 @@ export default function Home() {
                     type: "spring",
                     stiffness: 100,
                     damping: 10,
-                    delay: index * 1,
+                    delay: index * 0.3,
                   }}
                   className="space-y-2"
                 >
