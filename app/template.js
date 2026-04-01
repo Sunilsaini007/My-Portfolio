@@ -14,15 +14,16 @@ export default function Template({ children }) {
     return (
         <motion.div
             key={pathName}
-            initial={{ opacity: 0, y: 1000 }}
+            initial={{ opacity: 0.9, y: 1000 }}
             animate={{ opacity: 1, y: 0 }}
             end={{ opacity: 0, scale: 0 }}
             transition={{
-                duration: 2,
+                duration: 1.5,
                 scale: { type: "spring", visualDuration: 0.8, bounce: 0.4 },
                 ease: "easeInOut",
                 stiffness: 100,
                 damping: 5,
+                delay: 0.2,
             }}
         >
             {children}

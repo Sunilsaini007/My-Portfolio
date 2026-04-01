@@ -288,7 +288,6 @@ export default function Home() {
             </div>
           </div>
 
-
           {SameAs.map((items, idx) => (
             <div key={idx} className="mx-5 space-y-5">
               <h1 className="text-3xl text-center font-semibold">
@@ -312,7 +311,7 @@ export default function Home() {
                     type: "spring",
                     stiffness: 100,
                     damping: 10,
-                    delay: index * 1,
+                    delay: index * 3,
                   }}
                   className="relative row-span-2 h-48 lg:h-full transform transition-transform hover:scale-98 group"
                 >
@@ -382,12 +381,12 @@ export default function Home() {
                     initial={{ opacity: 0, scale: 0.8 }}
                     animate={isFirstInView ? { opacity: 1, scale: 1 } : {}}
                     transition={{
-                      duration: 0.6,
+                      duration: 1,
                       ease: "easeInOut",
                       type: "spring",
-                      stiffness: 120,
-                      damping: 14,
-                      delay: index * 0.2,
+                      stiffness: 100,
+                      damping: 10,
+                      delay: index * 0.8,
                     }}
                     className="hover:scale-[0.98] transition-transform"
                   >

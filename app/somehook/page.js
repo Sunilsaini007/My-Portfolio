@@ -63,17 +63,17 @@ export default function HomePage() {
                 </div>
             ) : (
                 <>
-                <div className="flex md:flex-row flex-col mb-4 justify-between">
-                    <h1 className="text-lg md:text-2xl font-bold mb-1">Recipes</h1>
-                    <input
-                        className="px-3 py-2 focus:outline-cyan-950 border rounded-lg"
-                        type="text"
-                        id="search"
-                        placeholder="Search"
-                        value={searchTerm}
-                        onChange={(e) => setSearchTerm(e.target.value)}
-                    />
-</div>
+                    <div className="flex md:flex-row flex-col mb-4 justify-between">
+                        <h1 className="text-lg md:text-2xl font-bold mb-1">Recipes</h1>
+                        <input
+                            className="px-3 py-2 focus:outline-cyan-950 border rounded-lg"
+                            type="text"
+                            id="search"
+                            placeholder="Search"
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)}
+                        />
+                    </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 dark:bg-black text-black dark:text-white">
                         {currentItems.map((food) => (
                             <div

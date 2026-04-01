@@ -73,8 +73,8 @@ export default function Footer() {
         <footer className="dark:bg-black text-black dark:text-white">
             <div className="flex items-end md:items-center md:pb-0 pb-5 justify-center relative lg:w-4xl md:w-2xl h-115 md:h-100 lg:h-60 overflow-hidden bg-[#2664eb] mx-auto rounded-2xl mb-3">
                 {FirstSection.map((Selection, index) => (
-                    <div key={index} className="text-white ">
-                        <div className="absolute -top-15 -left-15 w-40 h-40 rounded-full border-5"/>
+                    <div key={index} className="text-white">
+                        <div className="absolute -top-15 -left-15 w-40 h-40 border-white rounded-full border-5"/>
                         <div className="relative top-1/3 space-y-10 px-5">
                             <h1 className="text-center text-3xl md:text-4xl font-semibold">
                                 {Selection.heading}
@@ -99,6 +99,37 @@ export default function Footer() {
                     </div>
                 ))}
             </div>
+
+            {/* <div className="flex items-end md:items-center md:pb-0 pb-5 justify-center relative lg:w-4xl md:w-2xl h-115 md:h-100 lg:h-60 overflow-hidden bg-[#2664eb] mx-auto rounded-2xl mb-3">
+                <div className="text-white">
+                    <div className="absolute -top-15 -left-15 w-40 h-40 border-white rounded-full border-5" />
+                    <div className="relative top-1/3 space-y-10 px-5">
+                        <h1 className="text-center text-3xl md:text-4xl font-semibold">
+                            Subscribe to our newsletter
+                        </h1>
+                        <div className="flex flex-col lg:flex-row justify-center gap-5 w-full max-w-5xl mx-auto">
+                            <div className="flex flex-col lg:flex-row gap-3 w-fit">
+                                <input
+                                    type="text"
+                                    placeholder="First Name"
+                                    className="border border-white bg-transparent rounded-xl px-5 py-2 placeholder:text-white text-white font-semibold focus:outline-none w-full"
+                                />
+                            </div>
+                            <div className="flex flex-col lg:flex-row gap-3 w-fit">
+                                <input
+                                    type="email"
+                                    placeholder="Email"
+                                    className="border border-white bg-transparent rounded-xl px-5 py-2 placeholder:text-white text-white font-semibold focus:outline-none w-full"
+                                />
+                                <button className="w-full bg-black text-white font-semibold px-5 py-3 rounded-xl hover:bg-black/80 transition">
+                                    Subscribe Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> */}
+
 
             <div className="bg-black text-white container w-full mx-auto h-174 md:h-120 lg:h-80 flex flex-col justify-center rounded-t-lg">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mx-3 md:mx-10 py-5">

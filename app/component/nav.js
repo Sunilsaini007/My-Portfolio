@@ -52,7 +52,7 @@ export default function Nav() {
                         <button
                             onClick={toggleTheme}
                             className="relative w-14 h-7 rounded-full 
-                 bg-gray-900 dark:bg-gray-600
+                 bg-white dark:bg-gray-900
                  flex items-center px-1
                  transition-colors duration-200"
                             aria-label="Toggle Dark Mode"
