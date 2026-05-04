@@ -21,7 +21,7 @@ export default function SplashScreen({ children }) {
             initial={{ opacity: 0, y: 1000 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -1000 }}
-            transition={{ duration: 1.50 }}
+            transition={{ duration: 10 }}
             className="flex items-center justify-center h-screen bg-blue-100 text-xl font-mono dark:bg-black text-black dark:text-white"
           >
             {/* <video
