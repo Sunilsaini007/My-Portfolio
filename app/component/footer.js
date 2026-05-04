@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Monitor } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
     const FirstSection = [
@@ -37,10 +38,12 @@ export default function Footer() {
                 {
                     img: "./social-icon (3).png",
                     text: "instagram",
+                    href: "https://www.instagram.com/sunil_kumar_saini/"
                 },
                 {
                     img: "./social-icon (4).png",
                     text: "linkedin",
+                    href: "https://www.linkedin.com/in/sunil-kumar-saini-902b61324/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BGFIaSYYXRbCMvuROOULmkA%3D%3D"
                 },
             ],
         },
@@ -74,7 +77,7 @@ export default function Footer() {
             <div className="flex items-end md:items-center md:pb-0 pb-5 justify-center relative lg:w-4xl md:w-2xl h-115 md:h-100 lg:h-60 overflow-hidden bg-[#2664eb] mx-auto rounded-2xl mb-3">
                 {FirstSection.map((Selection, index) => (
                     <div key={index} className="text-white">
-                        <div className="absolute -top-15 -left-15 w-40 h-40 border-white rounded-full border-5"/>
+                        <div className="absolute -top-15 -left-15 w-40 h-40 border-white rounded-full border-5" />
                         <div className="relative top-1/3 space-y-10 px-5">
                             <h1 className="text-center text-3xl md:text-4xl font-semibold">
                                 {Selection.heading}
@@ -137,6 +140,7 @@ export default function Footer() {
                         <div key={index} className="space-y-5">
                             <div >
                                 <div className="flex gap-5 items-center">
+
                                     <Image
                                         className="bg-[#2664eb] rounded-full p-1 h-10 w-10"
                                         src={section.heading}
@@ -144,6 +148,7 @@ export default function Footer() {
                                         height={10}
                                         width={10}
                                     />
+
                                     <span className="text-3xl font-semibold">{section.text}</span>
                                 </div>
                                 <div className="mt-5">
@@ -153,13 +158,15 @@ export default function Footer() {
                             <div className="flex space-x-5">
                                 {section.items.map((items, idx) => (
                                     <div key={idx} className="" >
-                                        <Image
-                                            className="w-8 h-8 rounded-full border border-gray-500 p-1 hover:bg-[#2664eb] bg-white transform transition-transform hover:scale-105"
-                                            src={items.img}
-                                            alt={items.text}
-                                            width={10}
-                                            height={10}
-                                        />
+                                        <a href={items.href} target="_blank" rel="noopener noreferrer">
+                                            <Image
+                                                className="w-8 h-8 rounded-full border border-gray-500 p-1 hover:bg-[#3e6ddc] bg-white transform transition-transform hover:scale-105"
+                                                src={items.img}
+                                                alt={items.text}
+                                                width={10}
+                                                height={10}
+                                            />
+                                        </a>
                                     </div>
                                 ))}
                             </div>

@@ -311,7 +311,7 @@ export default function Home() {
                     type: "spring",
                     stiffness: 100,
                     damping: 10,
-                    delay: index * 3,
+                    delay: index * 2,
                   }}
                   className="relative row-span-2 h-48 lg:h-full transform transition-transform hover:scale-98 group"
                 >

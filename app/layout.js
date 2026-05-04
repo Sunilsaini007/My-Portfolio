@@ -19,10 +19,10 @@ export default function RootLayout({ children }) {
       >
         <SplashScreen>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <Template>
+            {/* <Template> */}
             <Nav />
               {children}
-            </Template>
+            {/* </Template> */}
             <Footer />
           </ThemeProvider>
         </SplashScreen>
