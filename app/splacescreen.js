@@ -21,10 +21,10 @@ export default function SplashScreen({ children }) {
             initial={{ opacity: 0, y: 1000 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -1000 }}
-            transition={{ duration: 10 }}
+            transition={{ duration: 50 }}
             className="flex items-center justify-center h-screen bg-blue-100 text-xl font-mono dark:bg-black text-black dark:text-white"
           >
-            {/* <video
+            <video
               autoPlay
               muted
               loop
@@ -32,12 +32,12 @@ export default function SplashScreen({ children }) {
               className="w-full h-screen object-cover"
             >
               <source src="/splacescreen.mp4" type="video/mp4" />
-            </video> */}
-            <Image
+            </video>
+            {/* <Image
             src="/pexels (1).jpg"
             alt= "SplashScreen"
             fill
-            />
+            /> */}
             {/* <p className="absolute font-semibold "> Loading Splash Screen... </p> */}
           </motion.div>
         )}
