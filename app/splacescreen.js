@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -23,7 +24,7 @@ export default function SplashScreen({ children }) {
             transition={{ duration: 1.50 }}
             className="flex items-center justify-center h-screen bg-blue-100 text-xl font-mono dark:bg-black text-black dark:text-white"
           >
-            <video
+            {/* <video
               autoPlay
               muted
               loop
@@ -31,7 +32,12 @@ export default function SplashScreen({ children }) {
               className="w-full h-screen object-cover"
             >
               <source src="/splacescreen.mp4" type="video/mp4" />
-            </video>
+            </video> */}
+            <Image
+            src="/pexels (1).jpg"
+            alt= "SplashScreen"
+            fill
+            />
             {/* <p className="absolute font-semibold "> Loading Splash Screen... </p> */}
           </motion.div>
         )}
